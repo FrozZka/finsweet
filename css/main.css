@@ -16,8 +16,70 @@
     --second-family: "Sen", sans-serif;
 }
 
+body{
+	padding-top: 80px;
+}
+
 .container{
 	max-width: 1320px;
 	margin: 0 auto;
 	padding: 0 20px;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: var(--black);
+}
+
+.header__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+}
+
+.header__logo img {
+	max-width: 140px;
+}
+
+.header__right-section {
+	display: flex;
+	align-items: center;
+}
+
+.header__nav {
+	margin-right: 32px;
+}
+
+.menu__list {
+	display: flex;
+	gap: 24px;
+}
+
+.menu__link {
+	font-family: var(--font-family);
+	color: var(--light);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 175%;
+	transition: color 0.2s ease-in-out;
+}
+
+.menu__link:hover {
+	color: var(--yellow);
+}
+
+.btn {
+	font-family: var(--second-family);
+	font-weight: 700;
+	font-size: 18px;
+	color: var(--black);
+	line-height: 133%;
+	padding: 16px 48px;
+}
+
+.btn--white {
+	background-color: var(--light);
 }
