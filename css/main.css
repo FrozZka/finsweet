@@ -15,3 +15,9 @@
 	--font-family: "Inter", sans-serif;
     --second-family: "Sen", sans-serif;
 }
+
+.container{
+	max-width: 1320px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
